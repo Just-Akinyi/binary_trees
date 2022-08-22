@@ -259,5 +259,5 @@ Function Prototypes
 
 ## Authors :black_nib:
 
-* __Justin Akinyi__ <[Just-Akinyi](https://github.com/Just-Akinyi)>
-* __David Motari__ <[??](https://github.com/??)>
+* __Justin Akinyi__ <[Just-Akinyi](https://github.com/Just-Akinyi)> <justakinyi1@gmail.com>
+* __David Motari__ <[??](https://github.com/??)>    <davemotari22@gmail.com>
