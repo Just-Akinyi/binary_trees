@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //declation for null
 //instuctions say we shouldn't use standard library so io will do
 #include "binary_trees.h"
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value){
