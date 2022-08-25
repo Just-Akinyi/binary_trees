@@ -1,10 +1,11 @@
-#if !defined(BINARY_TREES)
-#define BINARY_TREES
+#ifndef _BINARY_TREES_H_
+#define _BINARY_TREES_H_
 
-#include <stdlib.h>//to provide a declaration of malloc
+#include <stdlib.h> /*to provide a declaration of malloc */
 
 
-// Basic Binary Tree
+/* Basic Binary Tree*/
+
 /**
  * struct binary_tree_s - Binary tree node
  *
@@ -15,22 +16,22 @@
  */
 struct binary_tree_s
 {
-    int n;
-    struct binary_tree_s *parent;
-    struct binary_tree_s *left;
-    struct binary_tree_s *right;
+int n;
+struct binary_tree_s *parent;
+struct binary_tree_s *left;
+struct binary_tree_s *right;
 };
 typedef struct binary_tree_s binary_tree_t;
 /* Printing helper function defined in file binary_tree_print.c*/
 void binary_tree_print(const binary_tree_t *);
 
-// Binary Search Tree
+/* Binary Search Tree*/
 typedef struct binary_tree_s bst_t;
 
-// AVL Tree
+/* AVL Tree*/
 typedef struct binary_tree_s avl_t;
 
-// Max Binary Heap
+/* Max Binary Heap*/
 typedef struct binary_tree_s heap_t;
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
@@ -40,8 +41,8 @@ void binary_tree_delete(binary_tree_t *tree);
 int binary_tree_is_leaf(const binary_tree_t *node);
 int binary_tree_is_root(const binary_tree_t *node);
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
-void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));\
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
-// UPTO NUMBER 8 START FROM 9
+/* UPTO NUMBER 8 START FROM 9*/
 
-#endif // BINARY_TREES
+#endif /* BINARY_TREES*/
